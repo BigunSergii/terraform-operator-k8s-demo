@@ -10,5 +10,6 @@ resource "aws_instance" "myubuntu" {
   tags = {
     Name = "My-Ubuntu-Server"
     Owner = "Srhii Bihun"
+    Edition = "First change"
   } 
 }
