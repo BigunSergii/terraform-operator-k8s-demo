@@ -12,5 +12,6 @@ resource "aws_instance" "myubuntu" {
     Owner = "Srhii Bihun"
     Edition = "First change"
     Killed = "true"
+    Test = "true"
   } 
 }
