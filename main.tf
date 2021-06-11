@@ -17,7 +17,7 @@
 #  }
 
 resource "random_pet" "console_password" {
-    length = 6
+    length = 2
 }
 
 output "lol" {
