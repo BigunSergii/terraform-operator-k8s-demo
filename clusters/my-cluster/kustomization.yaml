@@ -1,0 +1,6 @@
+resources:
+  - namespace.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/operator.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/role.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/role_binding.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/service_account.yaml
