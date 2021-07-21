@@ -9,7 +9,7 @@ spec:
   path: ./«./terraform»-operator»
   prune: true
   sourceRef:
-    kind: GitRepository
+    kind: SerhiiBihun
     name: terraform-operator-k8s-demo
   validation: client
 
