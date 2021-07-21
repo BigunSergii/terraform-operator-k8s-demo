@@ -1,2 +1,2 @@
 resources:
-- github.com/terraform-operator/deploy/crds/tf.isaaguilar.com_terraforms_crd.yaml
+- github.com/isaaguilar/terraform-operator/deploy/crds/tf.isaaguilar.com_terraforms_crd.yaml
