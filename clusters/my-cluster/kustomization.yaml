@@ -1,2 +1,2 @@
 resources:
-- github.com/isaaguilar/terraform-operator/deploy/crds/?=master
+- github.com/isaaguilar/terraform-operator/deploy/crds?=master
