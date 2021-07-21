@@ -12,4 +12,12 @@ spec:
     kind: GitRepository
     name: terraform-operator-k8s-demo
   validation: client
+resources:
+  - namespace.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/crds/tf.isaaguilar.com_terraforms_crd.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/operator.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/role.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/role_binding.yaml
+  - https://github.com/isaaguilar/terraform-operator/blob/v0.3.8/deploy/service_account.yaml
+
 
