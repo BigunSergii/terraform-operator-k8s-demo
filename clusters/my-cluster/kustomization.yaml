@@ -1,5 +1,5 @@
 resources:
-- https://raw.githubusercontent.com/TetrationAnalytics/deploy-k8s/sbihun/test/fluxcd/crds/tf.isaaguilar.com_terraforms_crd.yaml?token=ATLVWSVAJCVDL56JUYDSLTTBAF5JY
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/crds/tf.isaaguilar.com_terraforms_crd.yaml
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/operator.yaml
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role.yaml
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role_binding.yaml
