@@ -5,7 +5,7 @@ crds:
 - tf.isaaguilar.com_terraforms_crd.yaml
 resources:
 - namespace.yaml
-- https://github.com/isaaguilar/terraform-operator//deploy/operator.yaml?ref=v0.3.8
-- https://github.com/isaaguilar/terraform-operator//deploy/role.yaml?ref=v0.3.8
-- https://github.com/isaaguilar/terraform-operator//deploy/role_binding.yaml?ref=v0.3.8
-- https://github.com/isaaguilar/terraform-operator//deploy/service_account.yaml?ref=v0.3.8
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/operator.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role_binding.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/service_account.yaml
