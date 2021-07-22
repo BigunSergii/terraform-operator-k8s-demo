@@ -4,7 +4,6 @@ kind: Kustomization
 crds:
 - tf.isaaguilar.com_terraforms_crd.yaml
 resources:
-- namespace.yaml
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/operator.yaml
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role.yaml
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role_binding.yaml
