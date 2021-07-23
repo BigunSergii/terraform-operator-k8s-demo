@@ -1,2 +1,2 @@
 crds:
-- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/crds/tf.isaaguilar.com_terraforms_crd.yaml
+- tf.isaaguilar.com_terraforms_crd.yaml
