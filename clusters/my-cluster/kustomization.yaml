@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
 - namespace.yaml
-crds:
-- openapi-spec.yaml
-- tf.isaaguilar.com_terraforms_crd.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/operator.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role_binding.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/service_account.yaml
