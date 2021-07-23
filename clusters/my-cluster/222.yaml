@@ -21,10 +21,11 @@ spec:
                                 type: string
                             replicas:
                                 type: integer
-  scope: Namespaced
-  names:
-      plural: crontabs
-      singular: crontab
-      kind: CronTab
-      shortNames:
-      - ct
+
+    scope: Namespaced
+    names:
+        plural: crontabs
+        singular: crontab
+        kind: CronTab
+        shortNames:
+        - ct
