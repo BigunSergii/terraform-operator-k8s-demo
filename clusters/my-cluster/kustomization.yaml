@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: tf-system
+resources:
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/crds/tf.isaaguilar.com_terraforms_crd.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/operator.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role_binding.yaml
+- https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/service_account.yaml
+- namespace.yaml
+- flux-system
+
+images:
+- name: isaaguilar/terraform-operator
+  newTag: v0.3.9
