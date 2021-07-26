@@ -3,5 +3,4 @@ kind: Kustomization
 
 resources:
 - namespace.yaml
-crds:
-- tf.isaaguilar.com_terraforms_crd.yaml
+- https://github.com/jetstack/cert-manager/releases/download/v1.4.0/cert-manager.yaml
