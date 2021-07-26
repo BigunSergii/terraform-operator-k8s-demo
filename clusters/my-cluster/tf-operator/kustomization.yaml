@@ -8,7 +8,6 @@ resources:
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/role_binding.yaml
 - https://raw.githubusercontent.com/isaaguilar/terraform-operator/master/deploy/service_account.yaml
 - namespace.yaml
-- flux-system
 
 images:
 - name: isaaguilar/terraform-operator
