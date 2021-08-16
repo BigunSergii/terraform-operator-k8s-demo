@@ -9,7 +9,7 @@ spec:
     kind: GitRepository
     name: dev-test
     namespace: flux-system
-  path: ~/terraform-operator-k8s-demo/crossplane-install
+  path: ~/terraform-operator-k8s-demo/clusters/my-cluster/crosplane-install
   prune: true
   validation: client
   healthChecks:
